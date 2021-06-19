@@ -1,0 +1,20 @@
+name: New Orleans
+type: theme
+base theme: classy
+description: 'A brand new theme!'
+package: Custom
+core_version_requirement: ^8 || ^9
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+  highlighted: 'Highlighted'
+  featured_top: 'Featured Top'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
