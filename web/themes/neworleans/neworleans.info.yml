@@ -18,3 +18,6 @@ regions:
   sidebar_second: 'Sidebar Second'
   footer_first: 'Footer First'
   footer_second: 'Footer Second'
+
+libraries:
+  - neworleans/neworleans-base

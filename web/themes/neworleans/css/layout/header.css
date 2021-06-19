@@ -5,5 +5,11 @@
 
 .layout-container header{
   padding-top: 1.2em;
-  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+header .region-header{
+  margin: auto 0;
 }
