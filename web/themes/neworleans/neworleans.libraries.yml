@@ -1,0 +1,7 @@
+neworleans-base:
+  version: 1.0
+  css:
+    theme:
+      css/layout/header.css: {}
+  js:
+    js/header.js: {}

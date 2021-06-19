@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Restricts the neworleans-base library to the front page
+ */
+function neworleans_preprocess_page(&$variables) {
+  if ($variables['is_front'] == TRUE) {
+    $variables['#attached']['library'][] = 'neworleans/neworleans-base';
+  }
+}

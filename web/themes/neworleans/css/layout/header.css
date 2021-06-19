@@ -1,0 +1,9 @@
+.layout-container{
+  width: 85%;
+  margin: auto;
+}
+
+.layout-container header{
+  padding-top: 1.2em;
+  text-align: center;
+}
