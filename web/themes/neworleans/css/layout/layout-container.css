@@ -1,0 +1,35 @@
+.layout-container{
+  width: 85%;
+  margin: auto;
+}
+
+.header{
+  padding: 30px 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.region-header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu-item{
+  padding-right: 25px;
+}
+
+.menu-item a{
+  color: black;
+  transition: .2s;
+}
+
+.menu-item a:hover{
+  color: brown;
+}

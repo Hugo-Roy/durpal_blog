@@ -2,6 +2,6 @@ neworleans-base:
   version: 1.0
   css:
     theme:
-      css/layout/header.css: {}
+      css/layout/layout-container.css: {}
   js:
     js/header.js: {}
