@@ -18,10 +18,6 @@
 #}
 <article{{ attributes.addClass('profile') }}>
   {% if content %}
-    {% if is_front %}
-        {{ content|without('user_picture') }}
-      {% else %}
         {{ content }}
-      {% endif %}
   {% endif %}
 </article>

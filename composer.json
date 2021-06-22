@@ -8,12 +8,16 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/9"
+        },
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    ],
+    },
     "require": {
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.2",
@@ -23,6 +27,7 @@
         "drupal/ds": "^3.12",
         "drupal/field_group": "^3.1",
         "drupal/tara": "^8.2",
+        "drupal/twig_vardumper": "^3",
         "drush/drush": "^10.5"
     },
     "conflict": {
